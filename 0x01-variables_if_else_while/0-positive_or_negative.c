@@ -7,12 +7,9 @@
 
 
 /**
- *
- *  * main - Determines if a number is positive, negative or zero.
- *
- *   * Return: Always 0 (Success)
- *
- *    */
+ * main - Determines if a number is positive, negative or zero.
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
