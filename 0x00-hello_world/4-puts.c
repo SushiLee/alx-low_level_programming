@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Using puts instead of printf() 
 int main(void)
 
 {
