@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <main.h>
 /**Prints _putchar
  * This code just requires me to write comments
  */
