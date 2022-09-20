@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *Prints _putchar
- * This code just requires me to write comments
+ *main- Prints _putchar
+ * return - Always 0
  */
 
 int main(void)
