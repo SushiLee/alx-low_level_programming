@@ -1,14 +1,19 @@
 #include <stdio.h>
-#include <main>
+#include <_putchar.h>
 /**Prints _putchar
  * This code just requires me to write comments
  */
  
+int main(void)
+{
+	int str[] = {95, 70, 75, 74, 63, 68, 61, 72};
+	int count, sz;
 
-int main() 
-
-{ 
-	write("_putchar\n"); 
-
-return(0);
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
+	{
+		_putchar(str[count]);
+	}
+	_putchar('\n');
+	return (0);
 }
