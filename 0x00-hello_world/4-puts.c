@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * Can't remember the words here
+ * main - Entry point of the program
  *
+ * Return: Always 0 (Success)
  * Simply displays a sting
  */
 int main(void)
