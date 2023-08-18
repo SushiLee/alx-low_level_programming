@@ -8,7 +8,12 @@
  */
 int main(void)
 {
-	const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(2, message, strlen(message));
+	const char *a = "and that piece of art is useful\";
+
+	const char *b =  - Dora Korpar, 2015-10-19\n";
+
+	write(2, a, strlen(a));
+	write(2, b, strlen(b));
+
 	return (1);
 }
