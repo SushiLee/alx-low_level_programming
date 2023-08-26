@@ -19,12 +19,12 @@ int main(void)
 		putchar(j);
 			{
 			putchar(',');
-			write(' ')
+			fwrite("\n", 1, 1, stdout);
 			}
 		}
 	}
 	{
-		putchar('\n')
+		putchar('\n');
 	}
 	return (0);
 }
