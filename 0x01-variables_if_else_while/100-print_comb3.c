@@ -7,28 +7,30 @@
  */
 int main(void)
 {
-	int i,j;
+	int i, j;
+	int printed[10][10] = {0};
+	
+	for (i = 0; i <= 9; i++)
+    {
+        for (j = i + 1; j <= 9; j++)
+        {
+            if (!printed[i][j])
+            {
+                putchar('0' + i);
+                putchar('0' + j);
+                
+                printed[i][j] = 1;
 
-	for (i = 48; i <= 56; i++)
-	{
-		for (j = 49; j <= 57; j++)
-		{
-			if (i != j)
-			{
-				putchar(i);
-				putchar(j);
+                if (i != 9 || j != 8)
+                {
+                    putchar(',');
+                    putchar(' ');
+                }
+            }
+        }
+    }
 
-				if (i != 56 || j != 57)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
-	{
-		putchar('\n');
-	}
+    putchar('\n');
 
-	return (0);
+    return 0;
 }
