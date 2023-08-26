@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+
 
 /**
  * main - Entry point of the program
@@ -17,7 +19,7 @@ int main(void)
 		putchar(j);
 			{
 			putchar(',');
-			fwrite(' ')
+			write(' ')
 			}
 		}
 	}
