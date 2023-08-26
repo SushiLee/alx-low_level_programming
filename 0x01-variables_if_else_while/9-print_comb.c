@@ -9,22 +9,18 @@
  */
 int main(void)
 {
-	int i, j;
+	int i;
 
 	for (i = 48; i <= 57; i++)
-	{
-		for (j = 49; j <= 57; j++)
 		{
-		putchar(i);
-		putchar(j);
+			putchar(i);
+			if (i != 57)
 			{
-			putchar(',');
-			putchar('\n');
+				putchar(',');
 			}
 		}
-	}
 	{
-		fwrite("\n", 1, 1, stdout);
+		putchar('\n');
 	}
 	return (0);
 }
