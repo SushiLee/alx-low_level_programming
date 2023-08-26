@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints digit combo till 89
- *
- * Return: Always 0 (Success)
- */
+* main - Prints digit combo till 89
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int i, j;
@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-        	for (j = i + 1; j <= 9; j++)
+		for (j = i + 1; j <= 9; j++)
 		{
 			if (!printed[i][j])
 			{
